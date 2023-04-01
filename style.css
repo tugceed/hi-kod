@@ -1,0 +1,28 @@
+*{
+    font-family: Roboto Slab;
+}
+body{
+    background-image: linear-gradient(45deg,#ff3f6f,#f16a9b,#d1a1a1);
+    background-attachment: fixed;
+}
+div{
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+table{
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border-collapse: collapse;
+}
+th,td{
+    color: darkslateblue;
+    width: 70px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
